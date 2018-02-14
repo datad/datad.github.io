@@ -1,5 +1,5 @@
 # links
-- url: "http://cs.wayne.edu/dmd/mirAP/"
-  description: mirAP: microRNA Augmented Pathways. Download and visualize the miRNA integrated pathways from KEGG and miRTarBase. 
-- url: "https://github.com/datad/disSubtyper"
+- url: "#"
+  description: mirAP: microRNA Augmented Pathways. Download and visualize the miRNA integrated pathways from KEGG and miRTarBase.
+- url: "#"
   description: disSubtyper: R source code for performing disease subtyping through a systems biology approach for unsupervised clustering of high-dimensional data.

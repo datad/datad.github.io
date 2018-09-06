@@ -11,27 +11,23 @@ I downloaded this template from [resume-template](https://github.com/jglovier/re
 https://www.elsevier.com/connect/creating-a-simple-and-effective-academic-personal-website
 
 
-Today, creating an academic website goes hand-in-hand with creating your CV and presenting who you are to your academic and professional peers. Creating and maintaining your website is an essential tool in disseminating your research and publications. Use your academic personal website to highlight your personality, profile, research findings, publications, achievements, affiliations and more. In addition, by using some of the many social media tools available, you can further amplify the information contained in your website.
+Today, creating an academic website goes hand-in-hand with creating your CV and presenting who you are to your academic and professional peers.
+- tool in disseminating your research and publications. (increasing your visibility)
+- to highlight your personality, profile, research findings, publications, achievements, affiliations and more.
+- using some of the many social media tools available, you can further amplify the information contained in your website.
+- networking and collaborating with others, as well as for job searching and application.
 
-<div class="su-note" style="float:right; width:400px; margin:10px; background-color:#f4fafd; border:1px solid #d9e0e3">
 
-<div style="padding:15px;border:1px solid #fcfefe; color:#484b4c">
+**Domain Name**
 
-<div style="float:right;padding:0 10px 10px 10px;">**[![](https://www.elsevier.com/__data/assets/image/0008/32012/Biggerbrains-image.jpg "Biggerbrains-image")](http://biggerbrains.com)**</div>
+dmdh
+dianadiaz - diaz is a latin lastname
+diamadiaz
+dianad - female association may be not benefitial
+diamad
+ddd - dr diana diaz
+datad
 
-**Brought to you by Elsevier Biggerbrains** This guide is from [Biggerbrains](http://www.biggerbrains.com/), which provides career development resources for early-career researchers. The website has sections on search and discovery, writing and publishing, networking, funding and career planning. Read the original article and download a PDF here</div>
-
-</div>
-
-An academic personal website takes you a step further in terms of increasing your visibility because it is an ideal place to showcase your complete research profile. You will attract attention to your publications, your name recognition will increase and you will get cited more. Moreover, a website is also useful for networking and collaborating with others, as well as for job searching and application.
-
-This guide helps you to take that next step and informs you on how to easily create an effective academic personal website.
-
-## Getting started — the technicalities
-
-**Registering the Domain Name**
-
-Think of a few good domain names  you would like to use for your website. Try your name or a combination of initials and last name. The domain name should be simple, preferably without hyphens or numbers, and easy to spell. Registering a domain name is never free, but it is low cost and worth it. Select a domain name with ‘.com’ if it is available.
 
 *   You can check availability of domain names and register them onsites such as: [godaddy.com](http://www.godaddy.com/), [register.com](http://www.register.com/) and [domainregistry.com](http://www.domainregistry.com/).
 

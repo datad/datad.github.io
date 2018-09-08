@@ -9,11 +9,9 @@ https://jekyllrb.com/docs/usage/
 cd /Users/diair/GitHub/datad.github.io
 jekyll serve
 
- Error:  (/Users/diair/GitHub/datad.github.io/_data/links.yml): mapping values are not allowed in this context at line 3 column 21
+jekyll clean
 
- jekyll clean
 
- 
 
 
 

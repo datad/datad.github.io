@@ -3,14 +3,14 @@
 
 # donutfinder.io
 - project: mirAP
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
-  # url: "#"
-  description: Donut Locator is an open source node/ember app that lets users find donuts within a defined radius from their home.
+  role: microRNA Augmented Pathways
+  #duration: 2012 &mdash; Present
+  url: "http://www.cs.wayne.edu/dmd/mirAP/"
+  description: Download and visualize the miRNA integrated pathways from KEGG and miRTarBase.
 
 #Springfield Donut Eater's User Group
-- project: Springfield Donut Eater's User Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
-  # url: "#"
-  description: DEUG is a local monthly meetup in Springfield where we share all the latest tips and tricks for dat donut lifestyle. I organize the group, and typically eat most of the donuts.
+- project: disSubtyper
+  role: Disease Subtyper
+  #duration: 2007 &mdash; Present
+  url: "http://datad.github.io/disSubtyper/"
+  description: R source code for performing disease subtyping through a systems biology approach for unsupervised clustering of high-dimensional data.

@@ -46,6 +46,23 @@
 
       </header>
 
+      <!-- begin Projects -->
+      <section class="content-section">
+        <header class="section-header">
+          <h2>Projects</h2>
+        </header>
+
+        {% for project in site.data.projects %}
+        <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
+          <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
+          <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
+          <h4 class="resume-item-details" itemprop="description">{{ project.role }}  &bull; {{ project.duration }}</h4>
+          <p class="resume-item-copy">{{ project.description }}</p>
+        </div>
+        {% endfor %}
+
+      </section>
+      <!-- end Projects -->
 
 
       <!-- begin Associations -->
@@ -66,6 +83,29 @@
       </section>
       <!-- end Associations -->
 
+      <!-- import linked in
+       https://www.resumonk.com/users/677394/resumes/719398/edit/basic -->
+
+    <!-- begin Publications -->
+    <section class="content-section">
+
+      <header class="section-header">
+        <h2>Publications</h2>
+      </header>
+
+      <style>
+      .responsive-wrap iframe{ max-width: 100%;}
+      </style>
+      <div class="responsive-wrap">
+      <!-- this is the embed code provided by Google
+        <iframe src="https://docs.google.com/presentation/d/1F0DQTNPg3YG_By6LMGcgwT3icJ3eMhCiupAZm76CIfE/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+      -->
+      <!-- Google embed ends  -->
+      <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRwwaiORdgLlhA9kbyO44mn2TBcYt0x7t3I9n4Z4dN5mfEQG3YYjJUfVXFjur1xJKH6fvdWTTbFDyqD/pubhtml?gid=0&amp;single=true&amp;widget=false&amp;headers=false&chrome=false" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+      </div>
+    </section>
+
+    <!-- end Publications -->
 
 
       <!-- begin News -->
@@ -74,6 +114,8 @@
         <header class="section-header">
           <h4>News</h4>
         </header>
+
+
 
         <blockquote class="twitter-tweet" data-lang="en">
           <p lang="en" dir="ltr">I&#39;ve got a scholarship to attend the Grace Hopper Celebration. See you there! Thanks
@@ -148,6 +190,19 @@
       {% endif %}
 
 
+      {% if false %}
+      {% include embeded_scholar.html %}
+
+      <!-- <iframe frameborder="yes" scrolling="yes" border="0" marginwidth="0" marginheight="0" width="560" height="315" src="https://www.w3schools.com"></iframe>
+      -->
+      {% raw %}
+      <iframe scrolling="yes" width="560" height="315" src="https://www.w3schools.com"></iframe>
+      {% endraw %}
+      {% endif %}
+
+
+
+
       {% if site.resume_section_education %}
       <!-- begin Education -->
       <section class="content-section">
@@ -176,25 +231,7 @@
       {% endif %}
 
 
-      {% if site.resume_section_projects %}
-      <!-- begin Projects -->
-      <section class="content-section">
-        <header class="section-header">
-          <h2>Projects</h2>
-        </header>
 
-        {% for project in site.data.projects %}
-        <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
-          <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
-          <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ project.role }}  &bull; {{ project.duration }}</h4>
-          <p class="resume-item-copy">{{ project.description }}</p>
-        </div>
-        {% endfor %}
-
-      </section>
-      <!-- end Projects -->
-      {% endif %}
 
       {% if site.resume_section_skills %}
       <!-- begin Skills -->
